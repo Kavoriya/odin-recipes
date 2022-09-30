@@ -1,0 +1,44 @@
+* {
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 600px;
+}
+
+.recipe-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 3px solid rgba(36, 34, 32, 0.541);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 > a {
+    font-size: 24px;
+}
+
+h1 > a:link {
+    color: orange;
+}
+
+.img-div {
+    text-align: center;
+}
+
+.description-and-ingredients {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.steps-list > li {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
