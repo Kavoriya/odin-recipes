@@ -1,30 +1,52 @@
 * {
     font-size: 18px;
     box-sizing: border-box;
-    border: 1px solid black;
+    margin: 0;
 }
 
 body{
     margin: 0 auto;
     padding: 0;
-    width: 600px;
 }
 
-.recipe-card {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border: 3px solid rgba(36, 34, 32, 0.541);
+header {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid orange;
 }
 
 h1 {
-    text-align: center;
+    font-size: 30px;
+    padding: 30px;
 }
 
-h1 > a {
+.cards-section {
+    background: linear-gradient(white, rgba(253, 186, 2, 0.192) 40%);
+    width: 100%;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-card {
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 > a {
     font-size: 24px;
 }
 
-h1 > a:link {
+h2 > a:link {
     color: orange;
 }
 
@@ -33,12 +55,23 @@ h1 > a:link {
 }
 
 .description-and-ingredients {
-    width: 500px;
-    margin: 0 auto;
+    width: 400px;
+    margin: 10px auto;;
 }
 
-.steps-list > li {
-    margin-bottom: 10px;
-    width: 300px;
+h3 {
+    margin-top: 10px;
 }
 
+
+.fa-regular.fa-clock {
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.fa-regular.fa-clock > p {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 14px;
+}
